@@ -1,5 +1,5 @@
 # Optional (lowest pereference or we can override)
-variable "instance" {
+variable "instance_type" {
     default = "t3.micro"
 
 }
@@ -11,17 +11,14 @@ variable "sg_ids" {
 
 
 variable "project" {
-
   
 }
-
 variable "environment" {
   
 }
 
 variable "component" {
     
-  
 }
 
 # if need extra tags It is optiona;
